@@ -1,0 +1,251 @@
+/* Styles for course search page */
+
+label { font-weight: normal ; }	
+#basic { width: 100% ; }
+#basic div { line-height: 24px ;  }
+h1, h2, h3, h4, .center { text-align: center ; }
+
+select, input { font-size: 12px ;  }
+#termtime div { width: 40% ; float: left ; padding-top: 2em ; padding-bottom: 2em ; }
+#shortcuts { width: 900px ; margin: auto ; padding-top: 2em ;  }
+#shortcuts div { width: 90px ; margin: auto ; float: left ;  }
+#shortcuts div p { text-align: center ; }
+#shortcuts div img { padding-bottom: 1em ;  }
+#shortcutlabel { width: 90px ; height: 50px ; }
+.disabled {
+	opacity: 0.4 ;
+	filter: alpha(opacity=40) ;
+}
+.enabled {
+	//opacity: 1.0 ;
+	//filter: alpha(opacity=100) ;
+}
+#openSectionsLabel { font-weight: bold ; }
+#spacer { height: 50% ; width: 100% ; margin-bottom: -50px ; float: left ;}
+#levelseat { width: 100% ;}
+#levelseat div { float: left ;  width: 45% ;}
+br { clear: both ; }
+hr { clear: both ;  color: #FEFEFE ; border-color: #FFF ; }
+#hideLink {cursor: pointer ;}
+div.label { width: 10% ; float: left ; line-height: 4.5em ; }
+div.input { width: 85% ; float: left ;  line-height: 4.5em ;}
+.required { color: #980000 ; font-weight: bold ; text-align: center ; font-size: 1.2em ;}
+.message { color: #980000 ; font-weight: bold ; text-align: center ; font-size: 1.6em ; margin-bottom: 1.5em ;}
+td h3 { font-size: 1.4em ; text-align: left ; padding-top: 0.5em ; }
+/* End search page styles */
+
+/* Specific to course tables */
+td.courses { vertical-align: top ; padding-top: 1em ;  }
+td.coursesLine2 { vertical-align: top ; }
+th.courses { text-align: left ; font-weight: bold ; vertical-align: bottom ; }
+
+
+/* For content that doesn't take up so much of the screen */
+.narrow {
+	width: 75% ;
+	margin: auto ;
+}
+
+/* popup boxes */
+/*
+#dhtmltooltip {
+	position: absolute;
+	width: 375px;
+	border: 2px solid black;
+	padding: 2px;
+	background-color: lightyellow;
+	visibility: hidden;
+	z-index: 100;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135) ;
+}
+*/
+/*
+.popupBox {
+	width : 300px;
+	padding : 30px;
+	background-color : #ffffff;
+	border-style: outset;
+	/*opacity:0.9;
+	filter:alpha(opacity=90);*/
+	/*
+	position:fixed;
+	display:none;
+	color: black ;
+	text-align: left ;
+	white-space: normal ;
+	font-size: 90% ;
+}
+*/
+/*----This is for IE6 ------*/
+/*
+*html .popupBox {
+	position: absolute ;
+}
+*/
+
+#bottomLinks { text-align: center ; padding-top: 1em ; padding-bottom: 1em ; }
+#disclaimer { text-align: center ; font-weight: bold ;  padding-top: 1em ; padding-bottom: 1em ;  }
+
+/* end specific to course tables */
+
+/*New css for course listing */
+p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+div#results table {
+	border-collapse:collapse;
+	margin-bottom:40px;
+	border:1px solid #afadae;
+}
+
+div#results th {
+	border:1px solid #afadae;
+}
+
+.classHeading {
+	padding:5px;
+	background:#A8A8A8;
+}
+
+div#results table td  {
+	padding:3px;
+	font-size:13px;
+}
+
+div#results p.course_description, tr.course_details, tr.course_details a, tr.course_details p, tr.course_details td, tr.course_details td p span, form .xlistform p {
+	font-size:12px;
+	font-weight:normal;
+	margin-top: 3px;
+	margin-bottom:3px;
+	line-height:18px;
+}
+ 
+div#results table tr.course_header td {
+	font-weight:bold;
+	font-size:14px;
+	background:#cac9ca;
+}
+
+div#results p.course_abbrev {
+	font-size:18px;
+	font-weight:bold;
+	margin-right:25px;
+	margin-bottom: 0px;
+	float:left;
+	line-height:26px;
+	padding-bottom:0px;
+}
+
+div#results p.course_longname {
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+	line-height:26px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+div#results p.course_credits {
+	font-size:14px;
+	font-weight:bold;
+	float:right;
+	line-height:26px;
+	margin-right:5px;
+}
+
+.classFull {
+	color: #980000;
+}
+
+.classOpen {
+	color: green;
+}
+
+.classCancelled {
+	text-decoration: line-through;
+	color: #980000;
+}
+
+.featured {
+	background: #FEFF90;
+}
+
+#legend {
+	border:1px solid #afadae;
+	width: 55%; 
+	margin-left: auto; 
+	margin-right: auto; 
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.even
+{
+	background-color: #e3e3e3;
+}
+
+.odd
+{
+	background-color: #FFF;
+}
+
+.subheading
+{
+	padding:5px;
+	background:#c4c4c4  ;
+}
+.infoheader
+{
+	padding:5px;
+	background:#c4c4c4  ;
+	font-weight: bold;
+	border: 1px solid ;
+}
+
+.subinfoheader
+{
+	padding:5px;
+	background-color: #e3e3e3;
+	font-weight: bold;
+	border: 1px solid ;
+}
+
+#courseinfo {border: 1px solid ; margin: auto ; width: 770px ; }
+
+#courseinfo th, #courseinfo td { border: 1px solid ; }
+
+#returnToSearch {
+	width:115px;
+        border:1px solid #e3e3e3;
+        background:#DEDEDE;
+        text-align:center;
+        padding:5px;
+        position:fixed; /* this is the magic */
+        bottom:10px; /* together with this to put the div at the bottom*/
+        right:10px;
+        cursor:pointer;
+        display:none;
+        color:#333;
+        font-family:verdana;
+        font-size:11px;
+}
+#toTop {
+	width:100px;
+        border:1px solid #e3e3e3;
+        background:#DEDEDE;
+        text-align:center;
+        padding:5px;
+        position:fixed; /* this is the magic */
+        bottom:10px; /* together with this to put the div at the bottom*/
+        right:145px;
+        cursor:pointer;
+        display:none;
+        color:#333;
+        font-family:verdana;
+        font-size:11px;
+}
+/*End new css for course listing */
